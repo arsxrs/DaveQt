@@ -40,6 +40,7 @@ public:
     int areastart;
     int arealen;
     int type_area;
+    int a;
 private:
     int row;
 
@@ -51,7 +52,7 @@ signals:
 
 public slots:
     //    void StrParse();
-    //    void SelectType();
+    //    void SelectType();/////
 };
 
 #endif // ITEM_H
