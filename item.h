@@ -40,7 +40,7 @@ public:
     int areastart;
     int arealen;
     int type_area;
-    int a;
+
 private:
     int row;
 
