@@ -177,6 +177,7 @@ void MainWindow::on_tableWidget_cellChanged(int row, int column)
 {
     if (ui->tableWidget->currentColumn()==0){
    itm[row]->ParseAddressStr();
+   ui->tableWidget->setCurrentCell(row,1);
     qDebug()<<" Changed cell";
 
     }

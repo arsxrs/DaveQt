@@ -89,7 +89,7 @@ void Item::ParseAddressStr(){
 
 
         if (listLen<2){
-            Address.setBackgroundColor(Qt::Red);
+            Address.setBackgroundColor(Qt::red);
             return;
         }
 
@@ -97,7 +97,7 @@ void Item::ParseAddressStr(){
 
 
 
-        Address.setBackgroundColor(Qt::Red);
+        Address.setBackgroundColor(Qt::red);
 
 
 
