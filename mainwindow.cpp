@@ -164,7 +164,7 @@ void MainWindow::on_tableWidget_customContextMenuRequested(const QPoint &pos)
 }
 
 
-//Click on TableWidget Type context menu
+//Click on TableWigdget Type context menu
 void MainWindow::tableContextMenuTypeClick(const QString & text)
 {
     int x=ui->tableWidget->currentRow() ;
@@ -178,7 +178,7 @@ void MainWindow::on_tableWidget_cellChanged(int row, int column)
     if (ui->tableWidget->currentColumn()==0){
    itm[row]->ParseAddressStr();
    ui->tableWidget->setCurrentCell(row,1);
-    qDebug()<<" Changed cell";
+    qDebug()<<" Changed celll";
 
     }
 }
